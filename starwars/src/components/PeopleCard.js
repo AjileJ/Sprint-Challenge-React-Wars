@@ -1,22 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const titlee = styled.h1`
+const Titlee = styled.h1`
 color: ${props=> (props.goldy ? "gold" : null)};
 `;
-const textt = styled.p`
+const Textt = styled.p`
 color: yellow;
+`;
+const Bc = styled.div`
+background-image: url('https://wallpaperplay.com/walls/full/b/e/4/124178.jpg');
 `;
 
 
 const PeopleCard = props => {
 return(
-  <div key={props.id}>
- <h1 goldy>Name: {props.name}</h1>
- <textt>Gender: {props.gender}</textt>
- <p>Hair Color: {props.hair_color}</p>
- <p>Height: {props.height}</p>
-  </div>
+  <Bc className="ch" key={props.id}>
+ <Textt>Name: {props.name}</Textt>
+ <Textt>Gender: {props.gender}</Textt>
+ <Textt>Hair Color: {props.hair_color}</Textt>
+ <Textt>Height: {props.height}</Textt>
+  </Bc>
 )
 
 }
