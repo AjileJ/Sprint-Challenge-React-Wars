@@ -27,13 +27,13 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
 - [ ] What does it mean to _think_ in react?
-
+It allows us to have  a fuller experience in the way we use our application. 
 - [ ] Describe state.
-
+An object that determines how that component renders & behaves.
 - [ ] Describe props.
-
+They are single values or objects containing a set of values that are passed to React Components on creation using a naming convention similar to HTML-tag attributes
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+A function is said to have side effect if it trys to modify anything outside its body. 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:

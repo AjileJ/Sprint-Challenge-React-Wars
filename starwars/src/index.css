@@ -4,4 +4,12 @@ body {
   font-family: sans-serif;
   background-image: url('./sw-bg.jpg');
   background-size: cover;
+
+}
+
+footer {
+  background: black;
+  font-size: 1.3rem;
+  padding: 1%;
+  color: rgba(146, 143, 143, 0.924);
 }
